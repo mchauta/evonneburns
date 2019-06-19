@@ -29,7 +29,7 @@ get_header(); ?>
 										<div class="col-sm-12 col-md-4">
 											<div class="rev-img"><?php the_post_thumbnail(); ?></div>
 										</div>
-										<div class="col-md-2 col-sm-8">
+										<div class="col-md-8 col-sm-12">
 											<?php the_content(); ?>
 											<div class="rev-name"><?php echo $reviewer; ?></div>
 										</div>
