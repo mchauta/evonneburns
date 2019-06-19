@@ -7,3 +7,14 @@ Template: sydney
 */
 
 @import url("../sydney/style.css");
+
+
+.price-symbol {
+    font-size: 2rem;
+    vertical-align: super;
+    font-weight: bold;
+}
+
+.serv-price {
+    font-size: 2.5rem;
+}

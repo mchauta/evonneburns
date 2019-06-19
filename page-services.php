@@ -19,6 +19,9 @@
  		<main id="main" class="post-wrap" role="main">
 
  			<?php while ( have_posts() ) : the_post(); ?>
+        <header class="entry-header">
+		        <h1 class="title-post entry-title"><?php the_title(); ?></h1>	
+        </header>
 
         <div class="entry-content">
  					<?php
