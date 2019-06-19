@@ -14,6 +14,7 @@ function create_reviews() {
       'rewrite' => array('slug' => 'reviews'),
       'menu_icon'   => 'dashicons-star-empty',
 			'show_in_nav_menus' => true,
+      'supports' => array('title', 'editor','thumbnail', 'revisions', 'page-attributes'),
     	'show_ui' => true,
     )
   );
@@ -31,7 +32,6 @@ function create_services() {
       ),
       'public' => false,
       'has_archive' => false,
-      'taxonomies'  => array( 'category' ),
       'supports' => array('title', 'editor','thumbnail', 'revisions', 'page-attributes'),
       'menu_icon'   => 'dashicons-tickets-alt',
 			'show_in_nav_menus' => true,
