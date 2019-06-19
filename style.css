@@ -18,3 +18,12 @@ Template: sydney
 .serv-price {
     font-size: 2.5rem;
 }
+
+.review {
+    min-height: 250px;
+    padding-bottom: 30px;
+}
+
+.rev-name {
+    font-weight: bold;
+}
