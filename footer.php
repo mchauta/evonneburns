@@ -26,6 +26,8 @@
 					<div class="copyright">
 						Copyright Evonne Burns <?php echo date("Y"); ?>
 					</div>
+				</div>
+				<div class="col-sm-6">
 					<div class="footerHours">
 						Charlottesville, VA 22901
 						Hours:
@@ -34,11 +36,7 @@
 						Sun: Closed
 					</div>
 				</div>
-				<div class="col-sm-6">
-					<div class="awards">
-						
-					</div>
-				</div>
+
 
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
