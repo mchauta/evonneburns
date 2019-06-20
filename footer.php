@@ -18,20 +18,28 @@
 	<?php endif; ?>
 
     <a class="go-top"><i class="fa fa-angle-up"></i></a>
-		
+
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info container">
-			<div class="copyright">
-				Copyright Evonne Burns <?php echo date("Y"); ?>
-			</div>
-			<div class="footerHours">
-				Charlottesville, VA 22901
-				Hours:
-				Mon – Fri: 9AM – 5PM
-				Sat: 10AM – 5PM
-				Sun: Closed
-			</div>
-			
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="copyright">
+						Copyright Evonne Burns <?php echo date("Y"); ?>
+					</div>
+					<div class="footerHours">
+						Charlottesville, VA 22901
+						Hours:
+						Mon – Fri: 9AM – 5PM
+						Sat: 10AM – 5PM
+						Sun: Closed
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="awards">
+						
+					</div>
+				</div>
+
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 
